@@ -34,9 +34,16 @@ HEADERS = {
 LEAGUE_SLUG = {
     'Premier League': 'premier_league',
     'Championship': 'championship',
+    "Serie A": "serie_a", 
     "Allsvenskan": "allsvenskan",  
 }
 
+
+SERIE_A_SLUG = {
+    "Atalanta": "atalanta",
+    "Bologna": "bologna",
+
+}
 
 ALLSVENSKAN_SLUG = {
     "AIK Solna": "aik-solna",
@@ -110,4 +117,4 @@ CHAMPIONSHIP_SLUG = {
     'Rotherham United': 'rotherham-united', 
 }
 
-ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **ALLSVENSKAN_SLUG}
+ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **SERIE_A_SLUG, **ALLSVENSKAN_SLUG}

@@ -35,5 +35,6 @@ leagues = {
         'Sheffield United',
     ],
     'Championship': list(scripts.config.CHAMPIONSHIP_SLUG.keys()),
+    "Serie A": list(scripts.config.SERIE_A_SLUG.keys()),
     "Allsvenskan": list(scripts.config.ALLSVENSKAN_SLUG.keys()),
 }
