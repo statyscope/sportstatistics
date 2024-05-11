@@ -34,34 +34,11 @@ HEADERS = {
 LEAGUE_SLUG = {
     'Premier League': 'premier_league',
     'Championship': 'championship',
+    "LaLiga EA Sports": "primera_division",
     "Serie A": "serie_a", 
-    "Allsvenskan": "allsvenskan",  
-}
-
-
-SERIE_A_SLUG = {
-    "Atalanta": "atalanta",
-    "Bologna": "bologna",
-
-}
-
-ALLSVENSKAN_SLUG = {
-    "AIK Solna": "aik-solna",
-    "Brommapojkarna": "brommapojkarna",
-    "Djurgårdens IF": "djurgardens-if", 
-    "IF Elfsborg": "if-elfsborg-boras", 
-    "GAIS": "gais-goteborg",
-    "IFK Göteborg": "ifk-goteborg",
-    "Halmstads": "halmstads-bk",
-    "Hammarby IF": "hammarby-if",
-    "Häcken": "hacken",
-    "Kalmar FF": "kalmar-ff",
-    "Malmö FF": "malmo-ff", 
-    "Mjällby AIF": "mjallby",
-    "IFK Norrköping": "ifk-norrkoping",
-    "IK Sirius": "sirius",
-    "IFK Varnamo": "ifk-varnamo",
-    "Västerås SK": "vasteras-sk",
+    "Bundesliga": "bundesliga",
+    "Allsvenskan": "allsvenskan",
+    "Eliteserien": "eliteserien",  
 }
 
 PREMIER_LEAGUE_SLUG = {
@@ -117,4 +94,47 @@ CHAMPIONSHIP_SLUG = {
     'Rotherham United': 'rotherham-united', 
 }
 
-ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **SERIE_A_SLUG, **ALLSVENSKAN_SLUG}
+PRIMERA_DIVISION_SLUG = {
+    "Athletic": "athletic-bilbao",
+    "Atlético": "atletico-madrid",
+    "Sevilla": "sevilla",
+    "Villarreal": "villarreal",
+}
+
+SERIE_A_SLUG = {
+    "Atalanta": "atalanta",
+    "Bologna": "bologna",
+    "Napoli": "napoli",
+}
+
+BUNDESLIGA_SLUG = {
+    "B. Dortmund": "borussia-dortmund",
+    "Mainz 05": "mainz-amat",
+}
+
+ALLSVENSKAN_SLUG = {
+    "AIK Solna": "aik-solna",
+    "Brommapojkarna": "brommapojkarna",
+    "Djurgårdens IF": "djurgardens-if", 
+    "IF Elfsborg": "if-elfsborg-boras", 
+    "GAIS": "gais-goteborg",
+    "IFK Göteborg": "ifk-goteborg",
+    "Halmstads": "halmstads-bk",
+    "Hammarby IF": "hammarby-if",
+    "Häcken": "hacken",
+    "Kalmar FF": "kalmar-ff",
+    "Malmö FF": "malmo-ff", 
+    "Mjällby AIF": "mjallby",
+    "IFK Norrköping": "ifk-norrkoping",
+    "IK Sirius": "sirius",
+    "IFK Varnamo": "ifk-varnamo",
+    "Västerås SK": "vasteras-sk",
+}
+
+ELITESERIEN_SLUG = {
+    "Molde FK": "molde-fk",
+    "Rosenborg BK": "rosenborg-bk",
+}
+
+
+ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **PRIMERA_DIVISION_SLUG, **SERIE_A_SLUG, **BUNDESLIGA_SLUG, **ALLSVENSKAN_SLUG, **ELITESERIEN_SLUG}
