@@ -37,6 +37,7 @@ LEAGUE_SLUG = {
     "LaLiga EA Sports": "primera_division",
     "Serie A": "serie_a", 
     "Bundesliga": "bundesliga",
+    "Ligue 1": "ligue_1",
     "Allsvenskan": "allsvenskan",
     "Eliteserien": "eliteserien",  
 }
@@ -97,6 +98,8 @@ CHAMPIONSHIP_SLUG = {
 PRIMERA_DIVISION_SLUG = {
     "Athletic": "athletic-bilbao",
     "Atlético": "atletico-madrid",
+    "Real Betis": "betis",
+    "Real Sociedad": "real-sociedad",
     "Sevilla": "sevilla",
     "Villarreal": "villarreal",
 }
@@ -104,12 +107,19 @@ PRIMERA_DIVISION_SLUG = {
 SERIE_A_SLUG = {
     "Atalanta": "atalanta",
     "Bologna": "bologna",
+    "Inter": "internazionale",
+    "Lazio": "lazio",
     "Napoli": "napoli",
 }
 
 BUNDESLIGA_SLUG = {
     "B. Dortmund": "borussia-dortmund",
     "Mainz 05": "mainz-amat",
+}
+
+LIGUE_1_SLUG = {
+    "Lille": "lillestrom",
+    "Nice": "nice",
 }
 
 ALLSVENSKAN_SLUG = {
@@ -137,4 +147,4 @@ ELITESERIEN_SLUG = {
 }
 
 
-ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **PRIMERA_DIVISION_SLUG, **SERIE_A_SLUG, **BUNDESLIGA_SLUG, **ALLSVENSKAN_SLUG, **ELITESERIEN_SLUG}
+ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **PRIMERA_DIVISION_SLUG, **SERIE_A_SLUG, **BUNDESLIGA_SLUG, **LIGUE_1_SLUG, **ALLSVENSKAN_SLUG, **ELITESERIEN_SLUG}
