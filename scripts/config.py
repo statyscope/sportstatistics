@@ -13,6 +13,11 @@ LEAGUE_URL = os.getenv("LEAGUE_URL")
 PREMIER_LEAGUE_URL = os.getenv("PREMIER_LEAGUE_URL")
 TEAM_URL = os.getenv("TEAM_URL")
 
+# The old versions of Besoccer navigation
+# Use if the new one fails
+LEAGUE_URL_OLD = os.getenv("LEAGUE_URL_OLD")
+PREMIER_LEAGUE_URL_OLD = os.getenv("PREMIER_LEAGUE_URL_OLD")
+
 HEADERS = {
     'accept': '*/*',
     'accept-language': 'sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6,nb;q=0.5',
@@ -35,11 +40,11 @@ LEAGUE_SLUG = {
     'Premier League': 'premier_league',
     'Championship': 'championship',
     "LaLiga EA Sports": "primera_division",
-    "Serie A": "serie_a", 
+    "Serie A": "serie_a",
     "Bundesliga": "bundesliga",
     "Ligue 1": "ligue_1",
     "Allsvenskan": "allsvenskan",
-    "Eliteserien": "eliteserien",  
+    "Eliteserien": "eliteserien",
 }
 
 PREMIER_LEAGUE_SLUG = {
@@ -89,14 +94,14 @@ CHAMPIONSHIP_SLUG = {
     'Sunderland': 'sunderland-afc',
     'Swansea City': 'swansea-city-afc',
     'Watford': 'watford-fc',
-    'West Bromwich Albion': 'west-bromwich',  
+    'West Bromwich Albion': 'west-bromwich',
 }
 
 PRIMERA_DIVISION_SLUG = {
     "Athletic": "athletic-bilbao",
     "Atlético": "atletico-madrid",
     "Barcelona": "barcelona",
-    "Celta": "celta", 
+    "Celta": "celta",
     "Deportivo Alavés": "alaves",
     "Espanyol": "espanyol",
     "Getafe": "getafe",
@@ -121,7 +126,7 @@ SERIE_A_SLUG = {
     "Bologna": "bologna",
     "Cagliari": "cagliari",
     "Como": "como",
-    "Empoli": "empoli-fc", 
+    "Empoli": "empoli-fc",
     "Fiorentina": "fiorentina",
     "Genoa": "genoa",
     "Hellas Verona": "hellas-verona-fc",
@@ -183,15 +188,15 @@ LIGUE_1_SLUG = {
 ALLSVENSKAN_SLUG = {
     "AIK Solna": "aik-solna",
     "Brommapojkarna": "brommapojkarna",
-    "Djurgårdens IF": "djurgardens-if", 
-    "IF Elfsborg": "if-elfsborg-boras", 
+    "Djurgårdens IF": "djurgardens-if",
+    "IF Elfsborg": "if-elfsborg-boras",
     "GAIS": "gais-goteborg",
     "IFK Göteborg": "ifk-goteborg",
     "Halmstads": "halmstads-bk",
     "Hammarby IF": "hammarby-if",
     "Häcken": "hacken",
     "Kalmar FF": "kalmar-ff",
-    "Malmö FF": "malmo-ff", 
+    "Malmö FF": "malmo-ff",
     "Mjällby AIF": "mjallby",
     "IFK Norrköping": "ifk-norrkoping",
     "IK Sirius": "sirius",
@@ -219,4 +224,13 @@ ELITESERIEN_SLUG = {
 }
 
 
-ALL_TEAMS_SLUG = {**PREMIER_LEAGUE_SLUG, **CHAMPIONSHIP_SLUG, **PRIMERA_DIVISION_SLUG, **SERIE_A_SLUG, **BUNDESLIGA_SLUG, **LIGUE_1_SLUG, **ALLSVENSKAN_SLUG, **ELITESERIEN_SLUG}
+ALL_TEAMS_SLUG = {
+    **PREMIER_LEAGUE_SLUG,
+    **CHAMPIONSHIP_SLUG,
+    **PRIMERA_DIVISION_SLUG,
+    **SERIE_A_SLUG,
+    **BUNDESLIGA_SLUG,
+    **LIGUE_1_SLUG,
+    **ALLSVENSKAN_SLUG,
+    **ELITESERIEN_SLUG
+}
