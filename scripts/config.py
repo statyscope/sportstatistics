@@ -39,6 +39,8 @@ HEADERS = {
 LEAGUE_SLUG = {
     'Premier League': 'premier_league',
     'Championship': 'championship',
+    'League One': 'league_one',
+    'League Two': 'league_two',
     "LaLiga EA Sports": "primera_division",
     "Serie A": "serie_a",
     "Bundesliga": "bundesliga",
@@ -96,6 +98,23 @@ CHAMPIONSHIP_SLUG = {
     'Watford': 'watford-fc',
     'West Bromwich Albion': 'west-bromwich',
 }
+
+LEAGUE_ONE_SLUG = {
+    'Barnsley': 'barnsley-fc',
+    'Bristol Rovers': 'bristol-rovers',
+    'Charlton Athletic': 'charlton-athletic-fc',
+    'Rotherham United': 'rotherham-united',
+    'Shrewsbury Town': 'shrewsbury-town',
+    'Wrexham AFC': 'wrexham',
+}
+
+LEAGUE_TWO_SLUG = {
+    'Milton Keynes Dons': 'milton-keynes-dons',
+    'Newport County': 'newport-county',
+    'Port Vale': 'port-vale',
+    'Walsall': 'walsall',
+}
+
 
 PRIMERA_DIVISION_SLUG = {
     "Athletic": "athletic-bilbao",
@@ -227,10 +246,12 @@ ELITESERIEN_SLUG = {
 ALL_TEAMS_SLUG = {
     **PREMIER_LEAGUE_SLUG,
     **CHAMPIONSHIP_SLUG,
+    **LEAGUE_ONE_SLUG,
+    **LEAGUE_TWO_SLUG,
     **PRIMERA_DIVISION_SLUG,
     **SERIE_A_SLUG,
     **BUNDESLIGA_SLUG,
     **LIGUE_1_SLUG,
     **ALLSVENSKAN_SLUG,
-    **ELITESERIEN_SLUG
+    **ELITESERIEN_SLUG,
 }

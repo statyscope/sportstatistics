@@ -35,6 +35,8 @@ leagues = {
         'Wolves',
     ],
     'Championship': list(scripts.config.CHAMPIONSHIP_SLUG.keys()),
+    'League One': list(scripts.config.LEAGUE_ONE_SLUG.keys()),
+    'League Two': list(scripts.config.LEAGUE_TWO_SLUG.keys()),
     "LaLiga EA Sports": list(scripts.config.PRIMERA_DIVISION_SLUG.keys()), 
     "Serie A": list(scripts.config.SERIE_A_SLUG.keys()),
     "Bundesliga": list(scripts.config.BUNDESLIGA_SLUG.keys()),
